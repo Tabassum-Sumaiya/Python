@@ -23,14 +23,14 @@
     day of the week: **
     dmap = {0:'Mon',1:'Tue',2:'Wed',3:'Thu',4:'Fri',5:'Sat',6:'Sun'}
 12. I have used seaborn to create a countplot of the Day of Week column with the hue based off of the Reason column.
-13. Do the same for Month.
+13. DOing the same process for Month.
 14. Some months are missing in this Plot?
 15. So, I create a gropuby object called byMonth, wheregroup the DataFrame by the month column and use the count() method for 
     aggregation. Then used the head() method on this returned DataFrame.
 16. I create a simple plot off of the dataframe indicating the count of calls per month.
 17. I have used seaborn's lmplot() to create a linear fit on the number of calls per month and reset the index to a column.
 18. Create a new column called 'Date' that contains the date from the timeStamp column and used .date() method.
-19. Then do groupby this Date column with the count() aggregate and create a plot of counts of 911 calls.
+19. Then I have done groupby with the Date column with the count() aggregate and create a plot of counts of 911 calls.
 20.  Again recreate this plot but create 3 separate plots with each plot representing a Reason for the 911 call.
 21. Finally create heatmaps with seaborn and calls data. First I restructure the dataframe so that the columns become the Hours and the 
     Index becomes the Day of the Week and for this purpose use unstack method beacuse it convert data to matrix form. 
