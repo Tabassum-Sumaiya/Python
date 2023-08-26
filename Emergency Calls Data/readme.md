@@ -38,4 +38,3 @@
 23. Again, create a clustermap using this DataFrame
 24. Now, repeat the same plots and operations, for a DataFrame that shows the Month as the column.
 25. Once create the same Heatmap and also Clustermap using new Month dataframe.
-26.   
